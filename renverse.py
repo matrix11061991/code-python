@@ -1,6 +1,6 @@
 #: The function to reverse a word
 def renverse(mot):
-	"""Translate the given text to Parseltongue.
+	"""Reverse the given word.
 
     :param str text: word to reverse.
 
