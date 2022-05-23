@@ -2,10 +2,10 @@
 def renverse(mot):
 	"""Reverse the given word.
 
-    :param str text: word to reverse.
+    :param string text: word to reverse.
 
     :returns: the reversed word .
-    :rtype: str
+    :rtype: string
     """
 	tom,res,l,mot = [],"",len(mot),list(mot)
 	for i in range(1,l+1):
