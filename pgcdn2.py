@@ -1,3 +1,4 @@
+#: The  function that calculates pgcd of 2 numbers:
 def pgcd(a,b):
 	while b != 0 :
 		a,b = b,a % b
