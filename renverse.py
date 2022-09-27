@@ -12,6 +12,14 @@ def renverse(mot):
 		tom.append(mot[l-i]) 
 	res = res.join(tom)
 	return res
+\
+def renverso(mot):
+	return mot[::-1]
+
+def reversejrs(mot):
+	car,rev = '',[]
+	[rev.append(mot[-1-i]) for i in range(0,len(mot))]
+	return car.join(rev)
 
 renv = renverse("informatique")
 print(renv)
