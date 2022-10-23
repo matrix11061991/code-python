@@ -1,4 +1,4 @@
-# : function that calculates derivate of functions
+# : function that calculates derivate of functions f
 from sympy import symbols, cos, diff
 def calcDeriv(a, b, c)
   a, b, c = symbols('a b c', real=True)
