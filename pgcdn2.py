@@ -10,9 +10,9 @@ def pgcdn(*n):
 	for x in n[2:]:
 		p = pgcd(p,x)
 	return m,p
-a = 25
-b = 15
-c = 75
-d = 35
-x,y = pgcdn(a,b,c,d)
-print("le pgcd des", x," nombre est :", y)
+a =
+
+
+
+
+
