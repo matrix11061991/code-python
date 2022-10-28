@@ -10,7 +10,7 @@ def pgcdn(*n):
 	for x in n[2:]:
 		p = pgcd(p,x)
 	return m,p
-a =
+
 
 
 
