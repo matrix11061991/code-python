@@ -5,8 +5,7 @@ def pgcd(a,b):
 	return a
 
 def pgcdn(*n):
-	p =  pgcd(n[0], n[1])
-	m =  len(n)
+	p,n =  pgcd(n[0], n[1]),len(n)
 	for x in n[2:]:
 		p = pgcd(p,x)
 	return m,p
