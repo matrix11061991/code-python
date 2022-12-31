@@ -1,9 +1,8 @@
-# : function that calculates derivate of functions f
-from sympy import symbols, cos, diff
-def calcDeriv(a, b, c)
-  a, b, c = symbols('a b c', real=True)
-  f = a**b - a**c + c**b
-  # differntiating function f in respect to a
-  return diff(f, a)
-
-
+import sympy
+# Définition de la variable symbolique x
+x = sympy.symbols('x')
+# Définition de la fonction f(x) = x^2
+f = x**2
+# Dérivation de la fonction f(x)
+f_prime = f.diff(x)
+print(f_prime)  # Affiche 2*x
